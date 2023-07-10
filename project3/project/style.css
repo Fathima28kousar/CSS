@@ -1,0 +1,16 @@
+h1,h5,h4,p{
+    text-align:center;
+}
+html{
+    background-color:rgb(247, 239, 239) ;
+}
+main{
+    background-color:white;
+    
+}
+time{
+    font-weight: 800;
+}
+em{
+    text-align: left;
+}
