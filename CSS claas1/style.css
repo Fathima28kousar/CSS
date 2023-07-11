@@ -1,7 +1,37 @@
-h1{
-    background-color: pink;
+/* 
+/* 
+#headingone{
+    color:blue
 }
-h2{
-    background-color: peru;
+#headingtwo{
+    background-color:yellowgreen;
 }
-
+.myclass {
+    background-color:#8c0b47;
+    color:white;
+}
+#First{
+    background-color:brown;
+    color:white;
+}
+#box{
+    background-color: blue;
+}
+.heading{
+    color:red;
+}
+#Submit{
+    background-color: green;
+} */ */
+#h1{
+     font-weight: lighter;
+}
+#h2{
+    font-weight: bolder;
+}
+#h3{
+     font-weight: 400;
+}
+#h4{
+     font-weight: 900;
+}
