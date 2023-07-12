@@ -1,8 +1,31 @@
-div{
-    height:100px;
-    background-color: brown;
-    width:100px;
-    border-style:solid;
-    border-width:4px;
-    
+#red{
+   height:400px;
+   width:150px;
+   background-color:black;
+   
+   
+}
+#blue{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:red;
+    padding:20px;
+    margin:20px;
+}
+#pink{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:yellow;
+    padding:20px;
+    margin:20px;
+}
+#fish{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:green;
+    padding:20px;
+    margin:20px;
 }
