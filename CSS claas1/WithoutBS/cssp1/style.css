@@ -1,0 +1,69 @@
+div{
+    
+    height:100px;
+    width:100px;
+    border:5px solid yellow;
+    
+
+}
+*{
+    background-color:white;
+}
+
+nav{
+    height:60px;
+    border:10px solid white;
+    background-color:black;
+}
+#Amazon{
+    color:orange;
+    text-decoration:none;
+    font-size: 25px;
+    margin-right: 100px;
+    background-color:black;
+}
+#Account{
+    color:white;
+    text-decoration:none;
+    background-color:black;
+    margin-right: 100px;
+}
+#MyCart{
+    color:white;
+    text-decoration:none;
+    background-color:black;
+    margin-right: 100px;
+}
+#Contact{
+    color:white;
+    text-decoration:none;
+    background-color:black;
+    margin-right: 100px;
+}
+button{
+    background-color:orange;
+    color:white;
+}
+input{
+    background-color:white;
+}
+#Div1{
+    background-color:rgba(0,0,255,0.5);
+   
+    
+}
+#Div2{
+    background-color:rgba(255,0,0,0.5);
+   display:inline-block;
+    
+}
+#Div3{
+    background-color:rgba(0,255,0,0.5)
+    
+    
+}
+footer{
+    background-color:black;
+    color:white;
+    
+}
