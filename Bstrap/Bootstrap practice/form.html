@@ -7,15 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mt-5">
+    <!-- <div class="container mt-5">
     <form class="form-inline">
         <div class="form-group">
         <label>Username:</label>
         <input type="text"  class="form-control" placeholder="username" >
         <label>Password:</label>
         <input type="password"  class="form-control" placeholder="password" >
-    </form>
-    
+    </form> -->
+
+    <br>
+    <div class="container mt-5">
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label>Username:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input type="password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Courses:</label>
+                   <select class="form-control">
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>MBBS</option>
+                    <option>BE</option>
+                   </select>
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea class="form-control" cols="30" rows="10" required></textarea>
+                    
+                </div>
+                <input type="submit" class="btn btn-success">
+                <input type="reset" class="btn btn-outline-warning">
+            </form>
+        </div>
+
+    </div>
 </div>
 </div>
 </body>
