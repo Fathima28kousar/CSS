@@ -7,16 +7,20 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mark.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <style>
+        .color{
+            background-color: red
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand" style="background-color: white;">
+    <nav class="navbar navbar-dark bg-colorone   navbar-expand p-0" style="background-color: white;">
         <div class="container">
-        <a class="navbar-brand" href="#">GREEN Waves</a>
+        <a class="navbar-brand " href="#">GREEN Waves</a>
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Private customize</a></li>
             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
@@ -32,17 +36,33 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/imag10.jpg" class="d-block w-100 img-fluid" alt="">
+                        <div class="carousel-caption">
+                            <p class="display-4">Pick N Mix collection</p>
+                        <button class="btn btn-outline-light" style="color:black">Buy now</button>
+
+                           
+
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./images/imag5.jpg" class="d-block w-100 img-fluid" alt="">
                         <div class="carousel-caption">
                             <p class="display-4">Fresh from the source</p>
+                        <button class="btn btn-outline-light" style="color:black">Buy now</button>
+
                            
 
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./images/imag7.jpg" class="d-block w-100 img-fluid" alt="">
+                        <div class="carousel-caption">
+                            <p class="display-4">Exclusive teas</p>
+                        <button class="btn btn-outline-light" style="color:black">Buy now</button>
+
+                           
+
+                        </div>
                         
                     </div>
                     
@@ -64,7 +84,7 @@
             <div class="col-6 mt-5 ">
              <h1>Green tea</h1>
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime, beatae temporibus iste odio culpa porro minima nesciunt dolor? Cum officia dolore reprehenderit sed odio architecto excepturi ab quod provident?</p>
-             <a class="text-dark" href="#">Read More</a>
+             <a class="text-dark" href="#">Read More <i class="bi bi-arrow-right"></i></a>
             </div>
             <div class="col-6">
              <img src="./images/bar1.jpg" alt="" style="width:450px;height:350px;"class="img-fluid rounded mt-5" >
@@ -75,12 +95,12 @@
         <div class="container-fluid mt-auto" style="height: 400px;background-color: #c5edac;" >
             <div class="row">
                 <div class="col-6">
-                 <img src="./images/bar2.jpg" alt="" style="width:450px;height:350px;"class="img-fluid rounded  mt-5" >
+                 <img src="./images/bar2.jpg" alt="" style="width:450px;height:350px;"class="img-fluid rounded   p-3 mt-4" >
                 </div>
                 <div class="col-6  mt-5">
                     <h1>Black Tea</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime, beatae temporibus iste odio culpa porro minima nesciunt dolor? Cum officia dolore reprehenderit sed odio architecto excepturi ab quod provident?</p>
-                    <a class="text-dark" href="#">Read More</a>
+                    <a class="text-dark" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                    </div>
                
             </div>
@@ -93,10 +113,10 @@
                 <div class="col-6  mt-5">
                  <h1>White Tea</h1>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime, beatae temporibus iste odio culpa porro minima nesciunt dolor? Cum officia dolore reprehenderit sed odio architecto excepturi ab quod provident?</p>
-                 <a class="text-dark" href="#">Read More</a>
+                 <a class="text-dark" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
                 <div class="col-6">
-                 <img src="./images/bar3.jpg" alt="" style="width:450px;height:350px;"class="img-fluid rounded  mb-5 mt-5" >
+                 <img src="./images/bar3.jpg" alt="" style="width:450px;height:350px;"class="img-fluid rounded  p-3 mt-4" >
                  
                 </div>
                
@@ -190,7 +210,7 @@
     </div>
 
 
-    .cont
+    
 
         <div class="container mt-5" style="height: 500px;background-color: #c5edac;">
             <div class="row ">
@@ -227,6 +247,7 @@
         </div>
        
         <div class="container-fluid mt-5 bg-dark text-white" style="height: 500px;">
+            <a style="color:white" href="#">Back to top <i class="bi bi-arrow-bar-up"></i></a>
             <div class="row">
                 <div class="col-4">
                     <img src="./images/imag2.jpg" alt="" style="width:350px;" class="img-fluid rounded  mt-5"  >
@@ -248,7 +269,6 @@
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-twitter"></i></p>
                 
-              
     </div>
     
 
