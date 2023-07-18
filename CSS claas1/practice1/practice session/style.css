@@ -6,16 +6,6 @@ div{
     display:inline-block;
 }
 #box1{
-    position:static;
-}
-#box2{
-    position:relative;
-}
-#box3{
-    position:fixed;
-    top:10px;
-}
-#box4{
-    position:sticky;
-    top:150px;
+    background-image:url(image_1.jpg);
+    background-size:cover;
 }
