@@ -1,0 +1,28 @@
+div{
+    background-color:#c41408;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+}
+*{
+    margin:0;
+    padding:0;
+    background-color:aliceblue;
+}
+h1{
+    text-align:end;
+}
+h2{
+    text-decoration:line-through;
+    font-weight:lighter;
+}
+a{
+    text-decoration:none;
+
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    line-height:25px;
+    text-transform:none;
+}
