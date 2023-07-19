@@ -1,8 +1,10 @@
 div{
-    background-color:#c41408;
+    background-color:rgb(255,0,0);
     width:100px;
     height:100px;
-    border:2px solid black;
+    border:2px dashed black;
+    
+    
 }
 *{
     margin:0;
@@ -25,4 +27,23 @@ p{
     font-size:20px;
     line-height:25px;
     text-transform:none;
+  
+}
+#flower{
+    padding:100px;
+    margin:10px 20px 30px 40px;
+    
+}
+#fruit{
+  
+    position:relative;
+    bottom: 100px;
+  
+   
+    
+}
+#para{
+    width:33%;
+  
+    
 }
