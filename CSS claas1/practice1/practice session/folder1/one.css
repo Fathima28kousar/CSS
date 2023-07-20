@@ -28,10 +28,9 @@ div{
    outline-color:tomato;
    outline-offset:4px;
 }
-
-p{
-    color:purple;
-    background-color:lightgrey;
-    text-align-last: left;
-    font-weight:900px;
+h1{
+    text-shadow:5px 5px 10px purple;
+}
+a{
+    color:hotpink;
 }
