@@ -1,0 +1,38 @@
+body{
+    background-color:black
+    
+}
+#one{
+    background-color:aquamarine;
+    color:black;
+    position:fixed;
+    top:0;
+}
+.container{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    height:600px;
+    width: 1200px;
+}
+.inner{
+    height: 200px;
+    width:400px;
+    background-color: black;
+    font-size:20px;
+}
+.parah{
+    color:white;
+    font-size:15px;
+}
+a{
+    color: blueviolet;
+
+}
+
+
+
+
+
