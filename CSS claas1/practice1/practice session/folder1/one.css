@@ -1,0 +1,21 @@
+body{
+    background-image:url(./cupcake.jpg);
+    background-position:right;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+}
+p.orange{
+    background-color:blue;
+}
+p.mango{
+    background-color:yellow;
+    margin:0 0 50px 0;
+}
+p.banana{
+    background-color:green;
+    border:2px dotted black;
+    border-right-style:solid;
+    border-left-style:solid;
+    margin:20px 0 0 0;
+}
