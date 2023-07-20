@@ -8,14 +8,30 @@ body{
 p.orange{
     background-color:blue;
 }
-p.mango{
-    background-color:yellow;
-    margin:0 0 50px 0;
-}
+
+
 p.banana{
     background-color:green;
     border:2px dotted black;
     border-right-style:solid;
     border-left-style:solid;
     margin:20px 0 0 0;
+}
+div{
+    background-color:pink;
+    width:300px;
+    margin:20px;
+    padding:25px;
+    border:2px solid black;
+   outline-style:solid;
+   outline-width:2px;
+   outline-color:tomato;
+   outline-offset:4px;
+}
+
+p{
+    color:purple;
+    background-color:lightgrey;
+    text-align-last: left;
+    font-weight:900px;
 }
