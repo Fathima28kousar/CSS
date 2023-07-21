@@ -1,34 +1,28 @@
-
-a.one:link {color:aqua;background-color:black;}
-a.one:visited {color:chartreuse;background-color:aliceblue; }
-a.one:hover {color:black;background-color:pink;}
-
-
-a.two:link{background-color:burlywood;font-size:100%;} 
-a.two:hover{background-color:black;color:white;font-size:150%;} 
-
-a.three:active {background-color:green;text-decoration:none;}
-a.four:active {text-decoration:none;}
-   
-ol{
-    background-color:palevioletred;
-    padding:20px;
+table {
+    border:2px solid black;
+    height:300px;
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 }
-ol li {
-    background-color:pink;
-    color:darked;
-    padding:5px;
-    margin-left:5px;
+thead {
+    background-color:green;
+    width:20px;
+    height:50px;
 }
-ul{
-    background-color:deepskyblue;
-    padding:20px;
-   
+
+td:hover {
+    background-color:lightgrey;
+
 }
-ul li {
-    color:black;
-    background-color:lightblue;
-    margin:5px;
-    padding:10px;
-    list-style-position: inside;
+td{
+    background-color:blanchedalmond;
+    border: 1px solid black;
 }
+th{
+    border: 1px solid #ddd;
+    color: aliceblue;
+    
+}
+
+
