@@ -1,3 +1,34 @@
-a {
-    font-size:100px;
+
+a.one:link {color:aqua;background-color:black;}
+a.one:visited {color:chartreuse;background-color:aliceblue; }
+a.one:hover {color:black;background-color:pink;}
+
+
+a.two:link{background-color:burlywood;font-size:100%;} 
+a.two:hover{background-color:black;color:white;font-size:150%;} 
+
+a.three:active {background-color:green;text-decoration:none;}
+a.four:active {text-decoration:none;}
+   
+ol{
+    background-color:palevioletred;
+    padding:20px;
+}
+ol li {
+    background-color:pink;
+    color:darked;
+    padding:5px;
+    margin-left:5px;
+}
+ul{
+    background-color:deepskyblue;
+    padding:20px;
+   
+}
+ul li {
+    color:black;
+    background-color:lightblue;
+    margin:5px;
+    padding:10px;
+    list-style-position: inside;
 }

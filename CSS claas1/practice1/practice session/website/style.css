@@ -1,0 +1,41 @@
+body{
+    
+   
+    background-color:lightgrey;
+}
+
+.container{
+    display:flex;
+    width:700px;
+    height:1000px;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:100px;
+    align-items:center;
+    justify-content: center;
+    align-content:center;
+    border:2px solid black;
+
+}
+.a{
+    width:300px;
+    height:300px;
+    background-color:white;
+    margin:10px;
+    
+    
+}
+footer{
+    background-color:darkslategrey;
+    height:300px;
+    width:100vw;
+    
+}
+h2{
+    text-shadow:5px 5px 4px ;
+}
+h1{
+    margin: 100px;
+    position:relative;
+    left:100px;
+}
