@@ -31,6 +31,7 @@ div{
 h1{
     text-shadow:5px 5px 10px purple;
 }
-a{
-    color:hotpink;
+a:active {
+    color:blue;
+    font-weight:900px;
 }
