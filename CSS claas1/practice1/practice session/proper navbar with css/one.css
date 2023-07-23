@@ -1,0 +1,22 @@
+li {
+    display: inline-block;
+}  
+
+li a {
+     text-decoration: none;
+     padding: 14px 16px;
+     color: white;
+}
+
+ul {
+    background-color: black;
+    padding: 14px 16px;
+    margin:0;
+}
+
+.active {
+    background-color: red;
+}
+a:hover {
+    background-color: #333;
+}
