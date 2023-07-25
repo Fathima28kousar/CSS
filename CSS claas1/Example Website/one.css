@@ -48,7 +48,6 @@ a:hover, a:active {
 .mainheader  li  {
     float: left;
     display: inline;
-   
 }
 
 .mainheader a:link, .mainheader a:visited {
