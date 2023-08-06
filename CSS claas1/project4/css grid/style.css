@@ -16,10 +16,18 @@
 #item2 {
     grid-row-start: 2;
     grid-row-end: 4;
-    background-color: green;
     grid-column-start: 2;
     grid-column-end: 4;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-auto-rows: minmax(50px,auto);
+    grid-auto-columns: minmax(25px,auto);
 }
+
+.search {
+    border: 2px solid black;
+    
+} 
 
 #item1 {
     grid-row-start: 1;
@@ -50,3 +58,4 @@
 #item3 {
     background-size: cover;
 }
+
