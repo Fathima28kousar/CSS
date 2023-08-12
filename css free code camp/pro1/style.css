@@ -1,0 +1,80 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+ body {
+  text-align: center;
+  min-height: 100vh;
+ }
+ 
+h1 {
+  margin: 10px;
+}
+
+ .container {
+  margin: 50px;
+  /* background-color: pink; */
+ }
+
+.red{
+  display: flex;
+  background-color: rgb(221, 7, 7);
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px 0 rgb(225, 7, 7);
+ 
+}
+
+.blue{
+  display: flex;
+  background-color: rgb(15, 77, 170);
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0 rgb(15, 77, 190);
+
+}
+
+.green{
+  display: flex;
+  background-color: rgb(33, 225, 58);
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0 rgb(33, 190, 58);
+
+
+}
+
+
+
+ .cap {
+   
+   height: 25px;
+   width: 100px;
+  
+
+ }
+
+ .sleeve {
+  
+   
+   background-color: #ffffff80;
+   border-left: 10px double ;
+   height: 30px;
+   width: 120px;
+ }
+
+ .thread {
+  
+  height: 25px;
+  width: 30px;
+
+
+ }
