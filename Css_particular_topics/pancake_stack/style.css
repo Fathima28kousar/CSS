@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+    min-height: 100vh;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.item1,.item2,.item3 {
+    border: 2px solid black;
+    /* grid-column: 1/4; */
+
+
+}
+
+/* .main {
+    grid-row: auto;
+} */
