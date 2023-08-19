@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Nunito",sans-serif;
+    min-height: 100vh;
+}
+
+.profile-pic-figure {
+    width: 25%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+/* .example {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border: 2px solid black;
+
+} */
+
+/* .example img {
+    width: 25%;
+    height: auto;
+} */
