@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-rows: minmax(70%,auto);
+    grid-template-columns: 30% 50% ;
+    gap: 1rem;
+    padding: 4rem;
+    border: 5px solid red;
+    min-height: 100vh;
+
+
+}
+
+.items {
+    border: 5px solid red;
+    background-color: white;
+    border-radius: 3%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size:1.3rem ;
+
+}
